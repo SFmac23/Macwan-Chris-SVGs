@@ -14,3 +14,81 @@ body {
     color: antiquewhite;
     text-align: center;
 }
+
+.h2 {
+    text-align: center;
+    color: rgb(204, 126, 62);
+    font-size: 35px;
+}
+
+.icons {
+    width:50px;
+    height: auto;
+    justify-content: center; 
+    gap: 150px; 
+    margin: auto;
+   flex-direction: row;
+    display: flex;
+
+}
+
+.icons2 {
+    width:50px;
+    height: auto;
+    justify-content: center; 
+    gap: 150px; 
+    margin: auto;
+    margin-left: 650px;
+   flex-direction: row;
+    display: flex;
+
+}
+
+/* Banana animation */
+#Banana:hover {
+  animation: rotateBanana 1s ease-in-out forwards;
+}
+@keyframes rotateBanana {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Cherry animation */
+#Cherry:hover {
+  animation: bounceCherry 0.6s ease-in-out forwards;
+}
+@keyframes bounceCherry {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2) translateY(-10px); }
+  100% { transform: scale(1); }
+}
+
+/* Orange  juice animaiton*/
+#Juice:hover {
+  animation: shakeOrange 0.5s ease-in-out forwards;
+}
+@keyframes shakeOrange {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-3px); }
+  100% { transform: translateX(0); }
+}
+
+
+/* Pink Fruit Animation*/
+#Pink-Fruit:hover {
+  fill: red
+  ;
+}
+
+/* Purple Fruit Animation*/
+#_Purple-Fruit:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0,255,255,0.5);
+}
+
+/* Watermelon Animation*/
+#Watermelon:hover {
+  transform: rotateX(140deg);
+}
